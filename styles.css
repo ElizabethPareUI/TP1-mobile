@@ -21,7 +21,12 @@ span{
     display: inherit;
     text-align: center;
     font-size: 23px;
+    animation: change-color 1.5s linear infinite;
 
+}
+@keyframes change-color {
+    from { background: rgb(255, 169, 169); }  /* Primer fotograma */
+    to { background: rgb(218, 218, 218); }  /* Segundo y último fotograma */
 }
 .barra-busqueda-icons{
    display: flex;
@@ -195,9 +200,9 @@ button {
     margin: 10px auto;
     height: fit-content;
     align-items: center;
+   
     
 }
-
 
 .card-review img{
     border-radius: 65px;
@@ -223,6 +228,7 @@ button {
 .reviews span{
     display: inline;
     background-color: #ECEBE4;
+    
 }
 .card-reviews{
     border: solid rgb(255, 255, 255) 5px;
