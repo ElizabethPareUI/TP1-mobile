@@ -91,7 +91,11 @@ ul {
 li {
     display: inline-block;
 }
-  
+
+.icons-mobile{
+    display: none;
+}
+
 li a {
     display: flex;
     color: white;
@@ -259,9 +263,7 @@ main{
     padding: 30px;
     margin-top: 20px;
 }
-.icons-mobile{
-    display: none;
-}
+
 .redes{
     color: #333;
     font-size: 36px;
@@ -320,7 +322,9 @@ summary:hover{
         display: block;
     }
 
-  
+    .icons-mobile{
+        display: flex;
+    }
     ul {
         position: fixed;
         width: 100%;
@@ -353,6 +357,7 @@ summary:hover{
         height: fit-content;
     }
 
+ 
     .checkboton{
         font-size: 30px;
         color: black;
@@ -423,11 +428,7 @@ summary:hover{
         width: fit-content;
     }
     
-    .icons-mobile{
-        display: flex;
-        color: #aaa;
-        
-    }
+  
 
 }
 
