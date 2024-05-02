@@ -1,0 +1,439 @@
+*{
+  padding: 0;
+  margin: auto; 
+ 
+}
+h1{
+    font-size: 0px;
+}
+span h1{
+    font-size: large;
+   
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    background-color: #cfb8b8;
+
+}
+span{
+    background-color: #ceaea5;
+    font-family: "Poppins", sans-serif;
+    display: inherit;
+    text-align: center;
+    font-size: 23px;
+
+}
+.barra-busqueda-icons{
+   display: flex;
+    text-align: center;
+    position: absolute;
+    left: 35%;
+    top: 10px;
+    
+    
+    
+}
+#busqueda{
+    width: 300px;
+    height: 40px;
+    border-radius: 32px;
+    border: solid #333 1px; 
+    font-size: 19px;
+    padding: 10px;
+    margin-right: 0px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.icons {
+    float: right;
+    font-size: 35px;
+    margin-right: 20px;
+    position: relative;
+    display: block;
+    top: 50px;
+    background-color: #ffffff;
+}
+
+.logo{
+    overflow: hidden;
+    padding: 20px;
+    margin: 0px;
+}
+.barra-busqueda-icons button {
+    background-color: white;
+    border: none;
+    /* padding: 0px; */
+    font-size: 20px;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+}
+
+#check{
+    display: none;
+}
+.checkboton{
+    font-size: 0px;
+}
+nav{
+ 
+    font-family: "Poppins", sans-serif;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #cfb8b8;
+}
+  
+li {
+    display: inline-block;
+}
+  
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    align-items: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    border-bottom: 5px solid transparent; /* Línea de subrayado inicial */
+    transition: border-color 0.3s ease; /
+}
+li a:hover{
+
+    border-color: #ECEBE4;
+}
+.banner img{
+    display: flex;
+    width: 100%;
+
+}
+.container-1{
+    display: flex;
+    height: 500px;
+   
+}
+.card-1{
+    max-height: 410px;
+    max-width: 300px; 
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 10px;
+    text-align: center;
+}
+.card-1 a{
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+}
+.card-1:hover{
+    border: solid black 0px;
+    border-radius: 30px;
+    margin-top: 10px;
+    box-shadow: -3px -3px 12px 3px rgba(0,0,0,0.29);
+    overflow: hidden;
+}
+.card-1 img{
+    display: flex;
+    align-items: center;
+
+}
+.card-1 h1{
+    color: #333;
+    font-size: 16px;
+    display: block;
+}
+.card-1 h3{
+    font-size: 10px;
+    font-weight: 300;
+}
+button {
+    border-radius: 32px;
+    border: solid gray 2px;
+    font-family: "poppins";
+    padding: 10px;
+    width: 100px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+   
+}
+.container-info {
+    font-family: "poppins",sans-serif;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 20px;
+    flex-direction: row;
+    align-items: flex-end;
+   
+
+}
+.container-info img{
+    float: center;
+}
+.container-info p {
+    font-size: 16px;
+}
+
+.pastilla-info{
+  
+    border-radius: 30px;
+    padding: 30px;
+    width: 600px;
+    min-height: 300px;
+    max-height: 800px;
+    background-color: #ceaea5;
+    margin: 10px auto;
+    height: fit-content;
+    align-items: center;
+    
+}
+
+
+.card-review img{
+    border-radius: 65px;
+    float: right;
+
+}
+.card-reviews h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+.reviews{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ 
+
+}
+
+.reviews span{
+    display: inline;
+    background-color: #ECEBE4;
+}
+.card-reviews{
+    border: solid rgb(255, 255, 255) 5px;
+    border-radius: 63px;
+    font-family: "poppins",sans-serif;
+    font-weight: 200;
+    background-color: rgb(12, 13, 13);
+    color: white;
+    padding: 30px;
+}
+
+.card-reviews:hover{
+
+    color: #333;
+    background-color: #d3cbc8;
+}
+
+.about-section h1{
+    font-weight: 400;
+}
+main{
+    top:30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-section{
+    border-top:solid #cfb8b8 30px;
+    width: 700px;
+    font-family: "poppins",sans-serif;
+    font: 16px;
+    text-align: left;
+    float: left;
+}
+
+.footer{
+    background-color: #f5e1fa;
+    font-family: "poppins", sans-serif;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.redes{
+    color: #333;
+    font-size: 36px;
+    text-align: right;
+}
+details {
+    border: solid 0px ;
+    border-radius: 24px;
+    padding: 0.5em 0.5em 0;
+    top: 5px;
+    background-color: #333;
+    color: aliceblue;
+    font-size: 25px;
+  }
+
+
+  summary {
+    font-weight: bold;
+    text-align: center;
+    margin: -0.5em -0.5em 0;
+    padding: 0.5em;
+  }
+
+summary:hover{
+    color: rgb(255, 255, 255);
+}
+  
+  details[open] {
+    padding: 0.5em;
+    background-color: #b7a7ba;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+  }
+  
+  
+
+.newsletter input{
+    border-radius: 35px;
+    height: 30px;
+    padding: 5px;
+
+}
+.newsletter h1{
+    color: #333;
+    font-size: 16px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    .checkboton{
+        display: block;
+    }
+
+  
+    ul {
+        position: fixed;
+        width: 100%;
+        height: fit-content;
+        left: -100%; 
+        background-color: rgb(169, 121, 117);
+        top: 80px;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    
+   
+    nav ul li{
+        display: block;
+        margin: 50px;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    li a:hover{
+        background-color: rgb(223, 169, 223);
+
+    }
+
+   #check:checked ~ ul {
+        max-width: 767px;
+        left: 0;
+        height: fit-content;
+    }
+
+    .checkboton{
+        font-size: 30px;
+        color: black;
+        float: right;
+        line-height: 80px;
+        margin-right: 20px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .logo{
+     float: left;
+        
+    }
+
+    .barra-busqueda-icons {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        background: none;
+        top: 30px;
+        gap: 10px;
+    }
+
+    #busqueda{
+        width: 50%;
+        height: 10px;
+        margin:0 auto 0 0;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .barra-busqueda-icons button {
+        position: sticky;
+        width: 50px;
+        background: none;
+        font: size 15px;
+        right: 50px;
+        
+
+    }
+    .icons{
+        display: none;
+    }
+    .container-1 {
+        display: flex;
+        height: fit-content;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+
+    .pastilla-info img{
+
+        width: 100%;
+        height: 200px;;
+
+    }
+
+    .reviews {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .reviews{
+        width: fit-content;
+    }
+    
+    
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .card-1 img {
+        width: 100px ;
+        height: fit-content ;
+    }
+
+    #busqueda{
+        width: 60%;
+        height: 30px;
+    }
+
+}
