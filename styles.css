@@ -259,7 +259,9 @@ main{
     padding: 30px;
     margin-top: 20px;
 }
-
+.icons-mobile{
+    display: none;
+}
 .redes{
     color: #333;
     font-size: 36px;
@@ -421,7 +423,11 @@ summary:hover{
         width: fit-content;
     }
     
-    
+    .icons-mobile{
+        display: flex;
+        color: #aaa;
+        
+    }
 
 }
 
